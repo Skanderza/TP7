@@ -33,7 +33,7 @@ public double getValue() {
 }
 
 public String toString() {
-	if(value<0 && value >20) return "ABS";
+	if(value<0 && value >21) return "ABS";
 	return +value+"/20";
 }
 
